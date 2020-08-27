@@ -10,7 +10,18 @@ exports[`should render ExpenseListFilters correctly 1`] = `
   <select
     onChange={[Function]}
     value="date"
-  />
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
   <DateRangePicker
     anchorDirection="left"
     customArrowIcon={null}
@@ -107,7 +118,18 @@ exports[`should render ExpenseListFilters with alt data correctly 1`] = `
   <select
     onChange={[Function]}
     value="amount"
-  />
+  >
+    <option
+      value="date"
+    >
+      Date
+    </option>
+    <option
+      value="amount"
+    >
+      Amount
+    </option>
+  </select>
   <DateRangePicker
     anchorDirection="left"
     customArrowIcon={null}
