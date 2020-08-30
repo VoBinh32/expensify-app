@@ -12,10 +12,7 @@ export const ExpensesSummary = ({ expensesCount, expensesTotal }) => {
 
     return (
         <div>
-            {expensesCount === 0
-                ? '' :
-                <h1>Viewing {expensesCount} {expenseWord} totalling {numeral(expensesTotal).format('$0.00')} </h1>
-            }
+            <h1>Viewing {expensesCount} {expenseWord} totalling {numeral(expensesTotal).format('$0.00')} </h1>
         </div>
     );
 };
