@@ -1,6 +1,10 @@
-# Front-end Challenge
+# Expensify App
 
 [Click Here To Preview](https://expensify-app-2020-by-binhvo.herokuapp.com/)
+
+## What is it?
+
+The application works like an budget manager to help track your expenses.
 
 ## Install packages and dependencies:
 
